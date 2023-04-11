@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #e7e7e7;
+    display: flex;
+    height: 50px;
+    justify-content: flex-end;
+    padding: 0 15px;
+  }
+  
+  #settings-link {
+    align-self: center;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 15px;
+  }
+  
+  .service-card {
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    padding: 15px;
+  }
+  
+  .service-card[data-status="ok"] {
+    background-color: #d4edda;
+  }
+  
+  .service-card[data-status="error"] {
+    background-color: #f8d7da;
+  }
+  
+  .remove-service {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    margin: -15px -15px 0 0;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  

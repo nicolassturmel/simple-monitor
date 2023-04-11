@@ -1,0 +1,1 @@
+{"settings":{"useBackend":true},"services":[{"type":"http","url":"http://192.168.1.134/","status":"ok"},{"type":"rest","url":"http://192.168.1.134:1936/x-nmos/node/v1.2/self","status":"ok","method":"get","path":"label","value":"Horus_80131"}]}
